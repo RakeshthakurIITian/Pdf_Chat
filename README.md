@@ -1,30 +1,19 @@
-# Chat-with-PDF-Chatbot
-This Chatbot is an interactive app developed to assist users to interact with their PDF. It is built using Open Source Stack. No OpenAI is required.
+# 📄 Chat with PDF Chatbot  
 
-## Getting Started
+An AI-powered chatbot that enables users to interact with PDF documents, extract insights, and get relevant answers instantly.
 
-Follow these steps to set up and run the project on your local machine.
+## 🚀 Features  
+- 🔍 Search for specific content within PDFs  
+- 📑 Summarize documents using AI  
+- 💬 Ask questions and get AI-generated responses  
+- 🖥️ User-friendly chatbot interface  
+- 🛠️ Easy to set up and use  
 
+## 📥 Installation  
 
-### Installation
-
+### 1️⃣ Clone the Repository  
 ```sh
-## Clone the repository
-git clone <repository_url>
-
-## Create the necessary folders
-mkdir db
-mkdir models
-## Add your model files to the 'models' folder
-mkdir docs
-
-----
-### Usage 
-
-## Run the ingestion script to prepare the data
-
-`python ingest.py`
-
-## Start the chatbot application using Streamlit
-
-`streamlit run chatbot_app.py`
+git clone https://github.com/RakeshthakurIITian/Pdf_Chat.git
+cd Pdf_Chat
+pip install -r requirements.txt
+python chatbot_app.py
